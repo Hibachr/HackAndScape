@@ -1,16 +1,12 @@
 import React from "react";
+import Logo from "../assets/logo.png";
 
 const Header = () => {
   return (
     <header className="header">
-      {/* Logo Section */}
       <div className="logo">
-        {/* Uncomment the line below and provide the correct path for your logo */}
-        {/* <img src="D:/ESMS/website/client/assets/logo.png" alt="Logo" /> */}
-        <h1>LOGO</h1>
+        <img src={Logo} alt="logo" />
       </div>
-
-      {/* Navigation Links */}
       <nav>
         <ul className="nav-links">
           <li><a href="#home">Home</a></li>
@@ -21,7 +17,6 @@ const Header = () => {
         </ul>
       </nav>
 
-      {/* Register Button */}
       <div>
         <a href="#register" className="register-button">
   Register

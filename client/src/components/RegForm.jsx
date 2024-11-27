@@ -5,12 +5,9 @@ const RegForm = () => {
   return (
     <section id="register" className="registration-section">
       <div className="registration-container">
-        {/* Left Section: Infos */}
         <Infos />
-
-        {/* Right Section: Form */}
         <div className="form-container">
-          <h2 className="form-title">Registration Form</h2>
+          <h3 className="form-title">Registration Form</h3>
           <form className="form-grid">
             <div className="form-group">
               <label htmlFor="name">name :</label>

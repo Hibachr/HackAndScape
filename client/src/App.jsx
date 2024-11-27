@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header.jsx'
 import RegForm from './components/RegForm.jsx'
+import About from './components/About.jsx'
 function App() {
   
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <main>
         <RegForm />
+        <About />
       </main>
       </div>
     </>
