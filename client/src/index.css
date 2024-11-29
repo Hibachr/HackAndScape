@@ -298,3 +298,16 @@ input::placeholder {
 #joinus {
   width: 360px;
 }
+
+#where_when {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding-left: 25px;
+}
+
+.place_time {
+  display: flex;
+  flex-direction: row;
+}
