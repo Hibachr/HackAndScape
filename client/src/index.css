@@ -298,3 +298,106 @@ input::placeholder {
 #joinus {
   width: 360px;
 }
+
+#where_when {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding-left: 25px;
+}
+
+.place_time {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Agenda */
+
+#agenda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/* 
+someone did a general style on p elments
+so i hade to remove it from the p elements
+that i used
+*/
+.p {
+  margin-bottom: 0;
+  text-align: justify;
+  line-height: normal;
+  width: auto;
+}
+
+#times {
+  background-color: #261d58;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#day {
+  color: black;
+  background-color: #016bba;
+  width: 650px;
+  padding: 5px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#times ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#times ul li {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+#items ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+#dots {
+  margin: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.dot {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateZ(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}

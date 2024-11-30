@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header.jsx'
 import RegForm from './components/RegForm.jsx'
 import About from './components/About.jsx'
+import Agenda from './components/Agenda.jsx'
 function App() {
   
   return (
@@ -11,6 +12,7 @@ function App() {
       <main>
         <RegForm />
         <About />
+        <Agenda/>
       </main>
       </div>
     </>
