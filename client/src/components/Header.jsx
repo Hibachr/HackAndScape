@@ -1,7 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Logo from "../assets/logo.png";
 
-const Header = () => {
+const Header = ({ onRegisterClick }) => {
   return (
     <header className="header">
       <div className="logo">
@@ -16,14 +17,17 @@ const Header = () => {
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-
       <div>
-        <a href="#register" className="register-button">
-  Register
-</a>
+        <button onClick={onRegisterClick} className="register-button">
+          Register
+        </button>
       </div>
     </header>
   );
+};
+
+Header.propTypes = {
+  onRegisterClick: PropTypes.func.isRequired, 
 };
 
 export default Header;
