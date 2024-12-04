@@ -24,6 +24,8 @@
 }
 :root {
   background-color: #221a4e;
+  padding: 0;
+  margin-top: 30px;
 }
 
 body {
@@ -35,11 +37,6 @@ body {
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-    padding: 0;
-  }
   a:hover {
     color: #747bff;
   }
@@ -400,4 +397,19 @@ that i used
     opacity: 1;
     transform: translateZ(0);
   }
+}
+/* contact  */
+.contact-section h2 {
+  text-align: center;
+}
+.contact-section input {
+  margin-top: 64px;
+  padding: 10px;
+  width: 36%;
+  height: 36px;
+  border: none;
+  border-radius: 7px;
+  color: #000;
+  font-size: 30px;
+  margin-bottom: 60px;
 }
