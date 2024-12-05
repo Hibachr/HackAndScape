@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/logo.svg";
+import hacker from "../assets/hacker 1.svg";
 import RegForm from "./RegForm";
 
 const Infos = () => {
@@ -32,10 +32,7 @@ const Infos = () => {
 
       {/* Right Part */}
       <div className="right-part">
-        <img src={Logo} alt="logo" className="logo-img" />
-        <button className="register-button" onClick={handleOpenModal}>
-          Register
-        </button>
+        <img src={hacker} alt="hacker" />
       </div>
 
       {/* Modal */}

@@ -57,7 +57,7 @@ function Agenda() {
   return (
     <>
         <section id="agenda">
-            <h2>AGENDA</h2>
+            <h2>AG<span className="blue-text">EN</span>DA</h2>
             <div id="times" className="fade-in" key={currentDay}>
                 <p className="p" id="day">{agenda[currentDay].day}</p>
                 <ul>
