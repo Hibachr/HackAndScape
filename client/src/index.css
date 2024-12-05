@@ -50,6 +50,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 25px;
   padding: 0 50px;
   height: 70px;
 }
@@ -75,11 +76,16 @@ body {
 .nav-links a:hover {
   color: #ccc;
 }
+
 .logo {
   position: absolute;
-  left: -5px;
-  top: 16px;
+  left: -730px;
 }
+
+.logo img {
+  transform: scale(0.4);
+}
+
 .register-button {
   background: #221a4e;
   color: #fff;
@@ -97,6 +103,7 @@ body {
   justify-content: center;
   text-decoration: none;
   box-shadow: 5px 5px 10px black;
+  transition: 0.5s all;
 }
 
 .register-button:hover {
@@ -164,6 +171,17 @@ p {
   color: #fff;
   border-radius: 87.84px;
   cursor: pointer;
+  transition: 0.5s all;
+}
+
+.know-more-btn:hover {
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+
+.know-more-btn a {
+  color: white;
+  text-decoration: none;
 }
 
 /* Right Part */
@@ -503,4 +521,28 @@ that i used
 
 .register-button:hover {
   background: #1f1747;
+}
+
+
+
+/* footer */
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+#cse {
+  display: flex;
+  gap: 30px;
+}
+
+#cse img {
+  width: 70px;
+}
+
+#copyright{
+  color: rgba(255, 255, 255, 0.4);
 }

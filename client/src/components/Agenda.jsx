@@ -41,14 +41,14 @@ function Agenda() {
 
   const [currentDay, setCurrentDay] = useState(0)
 
-//automatic switch between days every 7 seconds
+//automatic switch between days every 10 seconds
 
-//   useEffect(() => {
-//     const interval = setInterval(() => {
-//         setCurrentDay((prevDay) => (prevDay + 1) % agenda.length)
-//     },7000)
-//     return () => clearInterval(interval);
-//   }, [])
+  useEffect(() => {
+    const interval = setInterval(() => {
+        setCurrentDay((prevDay) => (prevDay + 1) % agenda.length)
+    },10000)
+    return () => clearInterval(interval);
+  }, [])
 
   const handleClick = (current) => {
     setCurrentDay(current)
