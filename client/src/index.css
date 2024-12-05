@@ -556,3 +556,36 @@ that i used
   align-items: center;
   gap: 30px;
 }
+
+
+/* mentors */
+
+.mentors {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap: 20px;
+}
+
+.inner-mentors {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.inner-mentors button {
+  background-color: #221a4e;
+  border: none;
+  cursor: pointer;
+}
+
+.mentor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.prev {
+  transform: scaleX(-1);
+}
