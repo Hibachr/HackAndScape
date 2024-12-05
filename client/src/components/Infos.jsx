@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo.svg";
 import RegForm from "./RegForm";
 
 const Infos = () => {
@@ -27,7 +27,7 @@ const Infos = () => {
           Participez à des défis en design, développement mobile, web et
           cybersécurité.
         </p>
-        <button className="know-more-btn">Know More</button>
+        <button className="know-more-btn"><a href="#about">Know More</a></button>
       </div>
 
       {/* Right Part */}

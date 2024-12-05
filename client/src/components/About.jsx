@@ -1,13 +1,13 @@
 import React from "react";
-import pic2 from "../assets/pic2.png";
-import pic1 from "../assets/pic1.png";
+import pic2 from "../assets/pic2.svg";
+import pic1 from "../assets/pic1.svg";
 import place from "../assets/place.svg"
 import time from "../assets/time.svg"
 
 const About = () => {
     return (
       <section id="about" className="about-section">
-        <h2>ABOUT US</h2>      
+        <h2>ABOUT <span className="blue-text">US</span></h2>      
         <div className="about-container">
         <div className="about-left">
         <p>At the heart of the Ultimate Hack&Scape Challenge is a passionate team dedicated to crafting an extraordinary experience. With expertise in event planning, design, and technology, </p>
