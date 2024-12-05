@@ -1,4 +1,3 @@
-import React from "react";
 import pic2 from "../assets/pic2.svg";
 import pic1 from "../assets/pic1.svg";
 import place from "../assets/place.svg"
