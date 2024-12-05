@@ -26,6 +26,7 @@
   background-color: #221a4e;
   padding: 0;
   margin-top: 30px;
+  background-image: url("./assets/triangle.svg");
 }
 
 body {
@@ -87,7 +88,7 @@ body {
 }
 
 .register-button {
-  background: #221a4e;
+  background: #2c8aca;
   color: #fff;
   border: none;
   width: 149px;
@@ -98,9 +99,9 @@ body {
   font-family: Ruda-Black;
   cursor: pointer;
   line-height: 1;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   text-decoration: none;
   box-shadow: 5px 5px 10px black;
   transition: 0.5s all;
@@ -172,6 +173,7 @@ p {
   border-radius: 87.84px;
   cursor: pointer;
   transition: 0.5s all;
+  box-shadow: 5px 5px 10px black;
 }
 
 .know-more-btn:hover {
@@ -545,4 +547,12 @@ that i used
 
 #copyright{
   color: rgba(255, 255, 255, 0.4);
+}
+
+/* sponsors */
+#sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
