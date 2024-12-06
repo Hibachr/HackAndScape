@@ -1,4 +1,3 @@
-import React from "react";
 import logos from "../assets/contact.svg"
 const Contact = () => {
     return ( 
