@@ -616,8 +616,6 @@ width: 50%;
 height: 60px;
 padding-top: 20px;
 border-radius: 20px;
-
-
 }
 .Question2{
   margin-left: 250px;
@@ -639,7 +637,7 @@ font-family:'RussoOne-Regular';
 font-size: 30px;
 background-color:#999090;
 width: 50%;
-height: 60px;
+height: 80px;
 padding-top: 20px;
 border-radius: 20px;
 }
@@ -657,7 +655,7 @@ border-radius: 20px;
 }
 .arrow3{
   position: relative;
-  top:-60px;
+  top:-75px;
   left:273px;
   cursor: pointer;
 }
