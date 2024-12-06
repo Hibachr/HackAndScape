@@ -9,6 +9,7 @@ import ContactUs from './components/ContactUs.jsx';
 import RegForm from './components/RegForm.jsx';
 import Footer from "./components/Footer.jsx";
 import Mentors from "./components/Mentors.jsx"
+import Faq from "./components/FAQ.jsx";
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -27,6 +28,7 @@ function App() {
           <Agenda />
           <Mentors/>
           <Sponsors />
+          <Faq/>
           <ContactUs />
         </main>
         {isModalOpen && <RegForm onClose={toggleModal} />}

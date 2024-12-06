@@ -13,6 +13,7 @@ const Header = ({ onRegisterClick }) => {
           <li><a href="#about">About</a></li>
           <li><a href="#agenda">Agenda</a></li>
           <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="#FAQ">FAQ</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
